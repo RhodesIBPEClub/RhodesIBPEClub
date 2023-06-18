@@ -15,6 +15,16 @@ const HomeContainer = styled.div`
 const HomeH1 = styled.h1`
 	font-size: 3.2em;
 	line-height: 1.1;
+	color: white;
+	font-weight: bold;
+`;
+
+const HomeH2 = styled.h1`
+	font-size: 1.6em;
+	line-height: 5;
+	color: grey;
+	align-items: left;
+	text-align: left;
 `;
 
 const Home = () => {
@@ -22,6 +32,7 @@ const Home = () => {
 		<HomeContainer>
 			<HomeH1>Investment Banking and Private Equity Club</HomeH1>
 			<HomeH1>at Rhodes College</HomeH1>
+			<HomeH2>Temporary Text about this club</HomeH2>
 			<ButtonLink />
 		</HomeContainer>
 	);
