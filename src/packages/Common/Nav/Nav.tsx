@@ -25,7 +25,7 @@ const LinkItem = styled.li`
 	transition: all 220ms ease-in-out;
 
 	&:hover {
-		border-top: 2px solid #2ecc71;
+		border-top: 2px solid #ffd700;
 	}
 `;
 
@@ -35,7 +35,7 @@ const Link = styled.a`
 	font-size: inherit;
 
 	&:hover {
-		color: #2ecc71;
+		color: #ffd700;
 	}
 `;
 

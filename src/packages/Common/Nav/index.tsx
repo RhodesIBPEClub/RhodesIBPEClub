@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import Nav from './Nav';
+import Logo from '../Base/logo';
 
 const NavbarContainer = styled.div`
 	width: 100%;
@@ -24,7 +25,7 @@ const Navbar = () => {
 	return (
 		<NavbarContainer>
 			<LeftSection>
-				<p>logo here</p>
+				<Logo imgPath={'src/assets/img/logo.png'} />
 			</LeftSection>
 			<MiddleSection>
 				<Nav />

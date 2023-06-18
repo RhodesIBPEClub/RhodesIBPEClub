@@ -1,5 +1,4 @@
 import React from 'react';
-
 import styled from 'styled-components';
 
 const LogoWrapper = styled.div`
@@ -8,8 +7,8 @@ const LogoWrapper = styled.div`
 `;
 
 const LogoImg = styled.div`
-	width: 29px;
-	height: 29px;
+	width: 50px;
+	height: 50px;
 
 	img {
 		border-radius: 10px;
@@ -20,24 +19,29 @@ const LogoImg = styled.div`
 
 const LogoText = styled.a`
 	text-decoration: none;
-	font-size: 16px;
+	font-size: 25px;
 	margin: 0;
 	margin-left: 4px;
 	color: #fff;
 	font-weight: 500;
+	padding-left: 1.1em;
 
 	&:hover {
-		color: #2ecc71;
+		color: #ffd700;
 	}
 `;
 
-export function Logo(props: { logo: string | undefined }) {
+export function Logo(props: { imgPath: string | undefined }) {
 	return (
 		<LogoWrapper>
 			<LogoImg>
-				<img src={props.logo} alt="logo" />
+				<a href="/RhodesIBPEClub/">
+					<img src={props.imgPath} alt="logo" />
+				</a>
 			</LogoImg>
-			<LogoText href="/">Project Cluster-Prism</LogoText>
+			<LogoText href="/RhodesIBPEClub/">Rhodes IBPE Club</LogoText>
 		</LogoWrapper>
 	);
 }
+
+export default Logo;
