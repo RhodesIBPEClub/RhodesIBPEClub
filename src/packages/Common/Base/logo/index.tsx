@@ -24,7 +24,7 @@ const LogoText = styled.a`
 	margin-left: 4px;
 	color: #fff;
 	font-weight: 500;
-	padding-left: 1.1em;
+	padding: 0 1.1em;
 
 	&:hover {
 		color: #ffd700;

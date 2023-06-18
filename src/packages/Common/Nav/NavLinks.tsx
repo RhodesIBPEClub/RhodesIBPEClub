@@ -23,10 +23,6 @@ const LinkItem = styled.li`
 	display: flex;
 	border-top: 2px solid transparent;
 	transition: all 220ms ease-in-out;
-
-	&:hover {
-		border-top: 2px solid #ffd700;
-	}
 `;
 
 const Link = styled.a`
@@ -39,7 +35,7 @@ const Link = styled.a`
 	}
 `;
 
-const Nav = (props: any) => {
+const NavLinks = (props: any) => {
 	return (
 		<NavLinksContainer>
 			<LinksWrapper>
@@ -50,11 +46,23 @@ const Nav = (props: any) => {
 					<Link href="/RhodesIBPEClub/about">About</Link>
 				</LinkItem>
 				<LinkItem>
+					<Link href="/RhodesIBPEClub/events">Events</Link>
+				</LinkItem>
+				<LinkItem>
 					<Link href="/RhodesIBPEClub/contact">Contact</Link>
+				</LinkItem>
+				<LinkItem>
+					<Link href="/RhodesIBPEClub/apply">Apply</Link>
+				</LinkItem>
+				<LinkItem>
+					<Link href="/RhodesIBPEClub/faq">FAQ</Link>
+				</LinkItem>
+				<LinkItem>
+					<Link href="/RhodesIBPEClub/ourteam">Our Team</Link>
 				</LinkItem>
 			</LinksWrapper>
 		</NavLinksContainer>
 	);
 };
 
-export default Nav;
+export default NavLinks;

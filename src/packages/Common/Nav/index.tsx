@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import Nav from './Nav';
+import NavLinks from './NavLinks';
 import Logo from '../Base/logo';
 
 const NavbarContainer = styled.div`
@@ -21,15 +21,21 @@ const MiddleSection = styled.div`
 	justify-content: center;
 `;
 
+const RightSection = styled.div`
+	display: flex;
+	flex: 1;
+	justify-content: flex-end;
+`;
+
 const Navbar = () => {
 	return (
 		<NavbarContainer>
 			<LeftSection>
 				<Logo imgPath={'src/assets/img/logo.png'} />
 			</LeftSection>
-			<MiddleSection>
-				<Nav />
-			</MiddleSection>
+			<RightSection>
+				<NavLinks />
+			</RightSection>
 		</NavbarContainer>
 	);
 };
