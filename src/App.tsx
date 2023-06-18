@@ -1,7 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import styled from 'styled-components';
-import './App.css';
 
 import NavBar from './packages/Common/Nav/index';
 import Home from './packages/pages/home';
@@ -12,11 +11,9 @@ const AppContainer = styled.div`
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
-	max-width: 1280px;
 	padding: 2rem;
 	width: 100wh;
 	height: 100vh;
-	max-width: 1280px;
 `;
 
 function App() {

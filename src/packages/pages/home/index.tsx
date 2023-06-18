@@ -7,7 +7,6 @@ const HomeContainer = styled.div`
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
-	max-width: 1280px;
 	padding: 2rem;
 	width: 100wh;
 	height: 100vh;
