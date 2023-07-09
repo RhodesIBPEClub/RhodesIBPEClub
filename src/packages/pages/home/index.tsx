@@ -30,6 +30,8 @@ const HomeImg = styled.img`
 	top: 0;
 	left: 0;
 	z-index: -1;
+	color: white;
+	font-weight: bold;
 `;
 
 const Home = () => {
