@@ -1,21 +1,38 @@
-import { useState } from "react";
-import "./App.css";
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import styled from 'styled-components';
+// Components
+import NavBar from './packages/Common/Nav/index';
+import Footer from './packages/Common/Footer/index';
+// Pages
+import Home from './packages/pages/home';
+import About from './packages/pages/about';
+import Events from './packages/pages/events';
+
+const AppContainer = styled.div`
+	text-align: center;
+	width: 100%;
+	height: 100vh;
+`;
 
 function App() {
-  const [count, setCount] = useState(0);
-
-  return (
-    <div>
-      <h1>Investment Banking and Private Equity Club</h1>
-      <h1>at Rhodes College</h1>
-      <div className="card">
-        <p className="read-the-docs">Click me!</p>
-        <button onClick={() => setCount((count) => count + 1)}>
-          {count}
-        </button>
-      </div>
-    </div>
-  );
+	return (
+		<AppContainer>
+			<Router>
+				<NavBar />
+				<Routes>
+					<Route path="/RhodesIBPEClub/" element={<Home />} />
+					<Route path="/RhodesIBPEClub/about" element={<About />} />
+					<Route path="/RhodesIBPEClub/events" element={<Events />} />
+				</Routes>
+				<Footer />
+			</Router>
+		</AppContainer>
+	);
 }
 
-export default App;
+const appWrapper = () => {
+	return <App />;
+};
+
+export default appWrapper;
