@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { ReactNode } from 'react';
 import styled from 'styled-components';
 
 const LogoWrapper = styled.div`
@@ -22,7 +22,7 @@ const LogoText = styled.a`
 	font-size: 25px;
 	margin: 0;
 	margin-left: 4px;
-	color: #fff;
+	color: #111;
 	font-weight: 500;
 	padding: 0 1.1em;
 
@@ -31,7 +31,7 @@ const LogoText = styled.a`
 	}
 `;
 
-export function Logo(props: { imgPath: string | undefined }) {
+export function Logo(props: { text: ReactNode; imgPath: string | undefined }) {
 	return (
 		<LogoWrapper>
 			<LogoImg>
@@ -39,7 +39,7 @@ export function Logo(props: { imgPath: string | undefined }) {
 					<img src={props.imgPath} alt="logo" />
 				</a>
 			</LogoImg>
-			<LogoText href="/RhodesIBPEClub/">Rhodes IBPE Club</LogoText>
+			<LogoText href="/RhodesIBPEClub/">{props.text}</LogoText>
 		</LogoWrapper>
 	);
 }

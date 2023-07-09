@@ -15,7 +15,7 @@ const LinksWrapper = styled.ul`
 
 const LinkItem = styled.li`
 	padding: 0 1.1em;
-	color: #fff;
+	color: #111;
 	font-weight: 500;
 	font-size: 25px;
 	align-items: center;
@@ -35,7 +35,7 @@ const Link = styled.a`
 	}
 `;
 
-const NavLinks = (props: any) => {
+const NavLinks = () => {
 	return (
 		<NavLinksContainer>
 			<LinksWrapper>

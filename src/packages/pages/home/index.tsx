@@ -12,17 +12,34 @@ const HomeContainer = styled.div`
 	height: 100vh;
 `;
 
+const HeaderContainer = styled.div`
+	padding-top: 7em;
+`;
+
 const HomeH1 = styled.h1`
 	font-size: 3.2em;
 	line-height: 1.1;
+	color: #fff;
+`;
+
+const HomeImg = styled.img`
+	width: 100%;
+	height: 70%;
+	object-fit: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
 `;
 
 const Home = () => {
 	return (
 		<HomeContainer>
-			<HomeH1>Investment Banking and Private Equity Club</HomeH1>
-			<HomeH1>at Rhodes College</HomeH1>
-			<ButtonLink />
+			<HomeImg src={'src/assets/img/test3.jpg'} />
+			<HeaderContainer>
+				<HomeH1>Preparing Rhodes College Students</HomeH1>
+				<HomeH1> for Success in the Finance Industry Since 2023</HomeH1>
+			</HeaderContainer>
 		</HomeContainer>
 	);
 };

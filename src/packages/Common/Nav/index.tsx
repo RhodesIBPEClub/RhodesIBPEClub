@@ -8,11 +8,13 @@ const NavbarContainer = styled.div`
 	height: 60px;
 	display: flex;
 	align-items: center;
-	padding: 0 1.5em;
+	padding-top: 1em;
 `;
 
 const LeftSection = styled.div`
 	display: flex;
+	padding-left: 1em;
+	justify-content: flex-start;
 `;
 
 const MiddleSection = styled.div`
@@ -31,7 +33,7 @@ const Navbar = () => {
 	return (
 		<NavbarContainer>
 			<LeftSection>
-				<Logo imgPath={'src/assets/img/logo.png'} />
+				<Logo imgPath={'src/assets/img/logo.png'} text={'Rhodes IBPE Club'} />
 			</LeftSection>
 			<RightSection>
 				<NavLinks />
