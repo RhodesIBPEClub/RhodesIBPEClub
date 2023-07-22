@@ -135,9 +135,9 @@ Error generating stack: `+o.message+`
 	display: flex;
 	flex: 1;
 	justify-content: flex-end;
-`,J0=()=>R.jsxs(G0,{children:[R.jsx(X0,{children:R.jsx(Ed,{imgPath:"src/assets/img/logo.png",text:"Rhodes IBPE Club"})}),R.jsx(Z0,{children:R.jsx(H0,{})})]}),q0=le.div`
+`,J0=()=>R.jsxs(G0,{children:[R.jsx(X0,{children:R.jsx(Ed,{imgPath:"docs/assets/images/logo.png",text:"Rhodes IBPE Club"})}),R.jsx(Z0,{children:R.jsx(H0,{})})]}),q0=le.div`
 	background-color: #111;
-`,b0=()=>R.jsx(q0,{children:R.jsx(Ed,{imgPath:"src/assets/img/logo.png",text:"Rhodes IBPE Club"})}),ev=le.div`
+`,b0=()=>R.jsx(q0,{children:R.jsx(Ed,{imgPath:"docs/assets/images/logo.png",text:"Rhodes IBPE Club"})}),ev=le.div`
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -161,8 +161,12 @@ Error generating stack: `+o.message+`
 	z-index: -1;
 	color: white;
 	font-weight: bold;
-`,rv=()=>R.jsxs(ev,{children:[R.jsx(nv,{src:"src/assets/img/test3.jpg"}),R.jsxs(tv,{children:[R.jsx(Oa,{children:"Preparing Rhodes College Students"}),R.jsx(Oa,{children:" for Success in the Finance Industry Since 2023"})]})]}),lv=()=>R.jsx("div",{children:R.jsx("h1",{children:"About"})}),ov=()=>R.jsx("div",{children:R.jsx("h1",{children:"Events"})}),iv=le.div`
+`,rv=()=>R.jsxs(ev,{children:[R.jsx(nv,{src:"docs/assets/images/backgroundImg.jpeg"}),R.jsxs(tv,{children:[R.jsx(Oa,{children:"Preparing Rhodes College Students"}),R.jsx(Oa,{children:" for Success in the Finance Industry Since 2023"})]})]}),lv=()=>R.jsx("div",{children:R.jsx("h1",{children:"About"})}),ov=()=>R.jsx("div",{children:R.jsx("h1",{children:"Events"})});const iv=le.div`
 	text-align: center;
 	width: 100%;
 	height: 100vh;
-`;function uv(){return R.jsx(iv,{children:R.jsxs(Dm,{children:[R.jsx(J0,{}),R.jsxs(Om,{children:[R.jsx(yl,{path:"/RhodesIBPEClub/",element:R.jsx(rv,{})}),R.jsx(yl,{path:"/RhodesIBPEClub/about",element:R.jsx(lv,{})}),R.jsx(yl,{path:"/RhodesIBPEClub/events",element:R.jsx(ov,{})})]}),R.jsx(b0,{})]})})}const sv=()=>R.jsx(uv,{});ti.createRoot(document.getElementById("root")).render(R.jsx(Un.StrictMode,{children:R.jsx(sv,{})}));
+	font-family: 'Inconsolata', monospace;
+	font-weight: 400;
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+`;function uv(){return R.jsx(iv,{children:R.jsxs(Dm,{children:[R.jsx(J0,{}),R.jsxs(Om,{children:[R.jsx(yl,{path:"/RhodesIBPEClub/",element:R.jsx(rv,{})}),R.jsx(yl,{path:"/RhodesIBPEClub/about",element:R.jsx(lv,{})}),R.jsx(yl,{path:"/RhodesIBPEClub/events",element:R.jsx(ov,{})})]}),R.jsx(b0,{})]})})}ti.createRoot(document.getElementById("root")).render(R.jsx(Un.StrictMode,{children:R.jsx(uv,{})}));
