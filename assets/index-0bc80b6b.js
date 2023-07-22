@@ -161,7 +161,7 @@ Error generating stack: `+o.message+`
 	z-index: -1;
 	color: white;
 	font-weight: bold;
-`,rv=()=>R.jsxs(ev,{children:[R.jsx(nv,{src:"docs/assets/images/backgroundImg.jpeg"}),R.jsxs(tv,{children:[R.jsx(Oa,{children:"Preparing Rhodes College Students"}),R.jsx(Oa,{children:" for Success in the Finance Industry Since 2023"})]})]}),lv=()=>R.jsx("div",{children:R.jsx("h1",{children:"About"})}),ov=()=>R.jsx("div",{children:R.jsx("h1",{children:"Events"})});const iv=le.div`
+`,rv=()=>R.jsxs(ev,{children:[R.jsx(nv,{src:"docs/assets/images/backgroundimage.jpeg"}),R.jsxs(tv,{children:[R.jsx(Oa,{children:"Preparing Rhodes College Students"}),R.jsx(Oa,{children:" for Success in the Finance Industry Since 2023"})]})]}),lv=()=>R.jsx("div",{children:R.jsx("h1",{children:"About"})}),ov=()=>R.jsx("div",{children:R.jsx("h1",{children:"Events"})});const iv=le.div`
 	text-align: center;
 	width: 100%;
 	height: 100vh;
