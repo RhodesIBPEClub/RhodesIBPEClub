@@ -37,7 +37,7 @@ const HomeImg = styled.img`
 const Home = () => {
 	return (
 		<HomeContainer>
-			<HomeImg src={'src/assets/img/test3.jpg'} />
+			<HomeImg src={'src/assets/img/testing123.jpeg'} />
 			<HeaderContainer>
 				<HomeH1>Preparing Rhodes College Students</HomeH1>
 				<HomeH1> for Success in the Finance Industry Since 2023</HomeH1>
