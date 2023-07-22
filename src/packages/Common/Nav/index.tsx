@@ -33,7 +33,7 @@ const Navbar = () => {
 	return (
 		<NavbarContainer>
 			<LeftSection>
-				<Logo imgPath={'src/assets/img/logo.png'} text={'Rhodes IBPE Club'} />
+				<Logo imgPath={'docs/assets/images/logo.png'} text={'Rhodes IBPE Club'} />
 			</LeftSection>
 			<RightSection>
 				<NavLinks />
