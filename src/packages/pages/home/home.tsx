@@ -1,6 +1,7 @@
 import React from 'react';
 import ButtonLink from '../../Common/Base/ButtonLink';
 import styled from 'styled-components';
+import backgroundimage from '../../../assets/images/backgroundimage.jpeg';
 
 const HomeContainer = styled.div`
 	display: flex;
@@ -37,7 +38,7 @@ const HomeImg = styled.img`
 const Home = () => {
 	return (
 		<HomeContainer>
-			<HomeImg src={'docs/assets/images/backgroundimage.jpeg'} />
+			<HomeImg src={backgroundimage} />
 			<HeaderContainer>
 				<HomeH1>Preparing Rhodes College Students</HomeH1>
 				<HomeH1> for Success in the Finance Industry Since 2023</HomeH1>

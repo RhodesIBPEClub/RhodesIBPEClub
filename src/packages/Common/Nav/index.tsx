@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import NavLinks from './NavLinks';
 import Logo from '../Base/logo';
+import logoimage from '../../../assets/images/logo.png';
 
 const NavbarContainer = styled.div`
 	width: 100%;
@@ -33,7 +34,7 @@ const Navbar = () => {
 	return (
 		<NavbarContainer>
 			<LeftSection>
-				<Logo imgPath={'docs/assets/images/logo.png'} text={'Rhodes IBPE Club'} />
+				<Logo imgPath={logoimage} text={'Rhodes IBPE Club'} />
 			</LeftSection>
 			<RightSection>
 				<NavLinks />
