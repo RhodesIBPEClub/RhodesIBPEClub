@@ -2,14 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import styled from 'styled-components';
-import createGlobalStyle from 'styled-components';
+
 // Components
 import NavBar from './packages/Common/Nav/index';
 import Footer from './packages/Common/Footer/index';
 // Pages
-import Home from './packages/pages/home/home';
-import About from './packages/pages/about/about';
-import Events from './packages/pages/events/events';
+import Home from './packages/pages/home';
+import About from './packages/pages/about';
+import Contact from './packages/pages/contact';
+import Team from './packages/pages/team';
 // Styles
 import './globals.css';
 
@@ -31,9 +32,9 @@ function App() {
 				<Routes>
 					<Route path="/RhodesIBPEClub/" element={<Home />} />
 					<Route path="/RhodesIBPEClub/about" element={<About />} />
-					<Route path="/RhodesIBPEClub/events" element={<Events />} />
+					<Route path="/RhodesIBPEClub/contact" element={<Contact />} />
+					<Route path="/RhodesIBPEClub/ourteam" element={<Team />} />
 				</Routes>
-				<Footer />
 			</Router>
 		</AppContainer>
 	);
