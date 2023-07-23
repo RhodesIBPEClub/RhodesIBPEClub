@@ -6,10 +6,10 @@ import logoimage from '../../../assets/images/logo.png';
 
 const NavbarContainer = styled.div`
 	width: 100%;
-	height: 60px;
+	height: 10%;
 	display: flex;
 	align-items: center;
-	padding-top: 1em;
+	background-color: #fff;
 `;
 
 const LeftSection = styled.div`
@@ -30,11 +30,25 @@ const RightSection = styled.div`
 	justify-content: flex-end;
 `;
 
+const LogoText = styled.a`
+	text-decoration: none;
+	font-size: 25px;
+	margin: 0;
+	margin-left: 4px;
+	color: #111;
+	font-weight: 500;
+	padding: 0 1.1em;
+
+	&:hover {
+		color: #b22222;
+	}
+`;
+
 const Navbar = () => {
 	return (
 		<NavbarContainer>
 			<LeftSection>
-				<Logo imgPath={logoimage} text={'Rhodes IBPE Club'} />
+				<LogoText href="/RhodesIBPEClub/">{'Rhodes IBPE Club'}</LogoText>
 			</LeftSection>
 			<RightSection>
 				<NavLinks />

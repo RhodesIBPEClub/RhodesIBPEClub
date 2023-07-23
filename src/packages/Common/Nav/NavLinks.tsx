@@ -31,7 +31,7 @@ const Link = styled.a`
 	font-size: inherit;
 
 	&:hover {
-		color: #ffd700;
+		color: #b22222;
 	}
 `;
 
@@ -46,16 +46,7 @@ const NavLinks = () => {
 					<Link href="/RhodesIBPEClub/about">About</Link>
 				</LinkItem>
 				<LinkItem>
-					<Link href="/RhodesIBPEClub/events">Events</Link>
-				</LinkItem>
-				<LinkItem>
 					<Link href="/RhodesIBPEClub/contact">Contact</Link>
-				</LinkItem>
-				<LinkItem>
-					<Link href="/RhodesIBPEClub/apply">Apply</Link>
-				</LinkItem>
-				<LinkItem>
-					<Link href="/RhodesIBPEClub/faq">FAQ</Link>
 				</LinkItem>
 				<LinkItem>
 					<Link href="/RhodesIBPEClub/ourteam">Our Team</Link>
