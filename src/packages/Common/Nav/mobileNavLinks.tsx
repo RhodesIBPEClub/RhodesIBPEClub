@@ -43,7 +43,7 @@ const Marginer = styled.div`
 	height: 2em;
 `;
 
-export function MobileNavLinks(props) {
+export function MobileNavLinks(props: any) {
 	const [isOpen, setOpen] = useState(false);
 
 	return (
