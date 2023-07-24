@@ -30,10 +30,10 @@ function App() {
 			<Router>
 				<NavBar />
 				<Routes>
-					<Route path="/" element={<Home />} />
-					<Route path="/about" element={<About />} />
-					<Route path="/RhodesIBPEClub/contact" element={<Contact />} />
-					<Route path="/RhodesIBPEClub/ourteam" element={<Team />} />
+					<Route path="/IBPE/" element={<Home />} />
+					<Route path="/IBPE/about" element={<About />} />
+					<Route path="/IBPE/contact" element={<Contact />} />
+					<Route path="/IBPE/ourteam" element={<Team />} />
 				</Routes>
 			</Router>
 		</AppContainer>

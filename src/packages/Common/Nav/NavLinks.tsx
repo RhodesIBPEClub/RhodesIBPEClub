@@ -40,16 +40,16 @@ const NavLinks = () => {
 		<NavLinksContainer>
 			<LinksWrapper>
 				<LinkItem>
-					<Link href="/RhodesIBPEClub/">Home</Link>
+					<Link href="/IBPE/">Home</Link>
 				</LinkItem>
 				<LinkItem>
-					<Link href="/RhodesIBPEClub/about">About</Link>
+					<Link href="/IBPE/about">About</Link>
 				</LinkItem>
 				<LinkItem>
-					<Link href="/RhodesIBPEClub/contact">Contact</Link>
+					<Link href="/IBPE/contact">Contact</Link>
 				</LinkItem>
 				<LinkItem>
-					<Link href="/RhodesIBPEClub/ourteam">Our Team</Link>
+					<Link href="/IBPE/ourteam">Our Team</Link>
 				</LinkItem>
 			</LinksWrapper>
 		</NavLinksContainer>
