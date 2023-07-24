@@ -5,6 +5,7 @@ import styled from 'styled-components';
 const Button = styled.div`
 	z-index: 99;
 	cursor: pointer;
+	padding-right: 1.5rem;
 `;
 
 const Path = (props: any) => <motion.path fill="transparent" strokeLinecap="round" strokeWidth="3" {...props} />;

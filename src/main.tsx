@@ -30,8 +30,8 @@ function App() {
 			<Router>
 				<NavBar />
 				<Routes>
-					<Route path="/RhodesIBPEClub/" element={<Home />} />
-					<Route path="/RhodesIBPEClub/about" element={<About />} />
+					<Route path="/" element={<Home />} />
+					<Route path="/about" element={<About />} />
 					<Route path="/RhodesIBPEClub/contact" element={<Contact />} />
 					<Route path="/RhodesIBPEClub/ourteam" element={<Team />} />
 				</Routes>
