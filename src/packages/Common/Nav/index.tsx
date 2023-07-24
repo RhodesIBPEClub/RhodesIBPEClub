@@ -53,7 +53,7 @@ const Navbar = () => {
 	return (
 		<NavbarContainer>
 			<LeftSection>
-				<LogoText href="/IBPE/">{'Rhodes IBPE Club'}</LogoText>
+				<LogoText href="/RhodesIBPEClub/">{'Rhodes IBPE Club'}</LogoText>
 			</LeftSection>
 			<RightSection>{isMobile ? <MobileNavLinks /> : <NavLinks />}</RightSection>
 		</NavbarContainer>

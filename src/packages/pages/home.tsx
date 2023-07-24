@@ -68,7 +68,7 @@ const Home = () => {
 			<BackgroundImage src={backgroundimage} />
 			<HeaderContainer>
 				<HomeH1>Rhodes IBPE Club</HomeH1>
-				<LinkedText href="/IBPE/contact">
+				<LinkedText href="/RhodesIBPEClub/contact">
 					<ContactText>Contact us</ContactText>
 				</LinkedText>
 			</HeaderContainer>
