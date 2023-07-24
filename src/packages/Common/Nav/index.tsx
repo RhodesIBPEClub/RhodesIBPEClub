@@ -1,6 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 import NavLinks from './NavLinks';
+import { MobileNavLinks } from './mobileNavLinks';
+import { useMediaQuery } from 'react-responsive';
+import { DeviceSize } from './responsive';
 import Logo from '../Base/logo';
 import logoimage from '../../../assets/images/logo.png';
 
@@ -45,14 +48,14 @@ const LogoText = styled.a`
 `;
 
 const Navbar = () => {
+	const isMobile = useMediaQuery({ maxWidth: DeviceSize.mobile });
+
 	return (
 		<NavbarContainer>
 			<LeftSection>
 				<LogoText href="/RhodesIBPEClub/">{'Rhodes IBPE Club'}</LogoText>
 			</LeftSection>
-			<RightSection>
-				<NavLinks />
-			</RightSection>
+			<RightSection>{isMobile ? <MobileNavLinks /> : <NavLinks />}</RightSection>
 		</NavbarContainer>
 	);
 };
