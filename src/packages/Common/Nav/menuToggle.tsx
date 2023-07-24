@@ -7,11 +7,11 @@ const Button = styled.div`
 	cursor: pointer;
 `;
 
-const Path = props => <motion.path fill="transparent" strokeLinecap="round" strokeWidth="3" {...props} />;
+const Path = (props: any) => <motion.path fill="transparent" strokeLinecap="round" strokeWidth="3" {...props} />;
 
 const transition = { duration: 0.33 };
 
-export function MenuToggle({ toggle, isOpen }) {
+export function MenuToggle({ toggle, isOpen }: { toggle: any; isOpen: any }) {
 	return (
 		<Button onClick={toggle}>
 			<svg width="23" height="23" viewBox="0 0 23 23">
