@@ -231,4 +231,4 @@ Valid keys: `+JSON.stringify(Object.keys(k),null,"  "));var Ae=O(K,te,H,q,G+"."+
 	font-weight: 400;
 	font-synthesis: none;
 	text-rendering: optimizeLegibility;
-`;function SE(){return D.jsx(wE,{children:D.jsxs(_1,{basename:"https://rhodesibpeclub.github.io/RhodesIBPEClub/",children:[D.jsx(oE,{}),D.jsxs(R1,{children:[D.jsx(ti,{path:"/RhodesIBPEClub/",element:D.jsx(hE,{})}),D.jsx(ti,{path:"/RhodesIBPEClub/about",element:D.jsx(gE,{})}),D.jsx(ti,{path:"/RhodesIBPEClub/contact",element:D.jsx(vE,{})}),D.jsx(ti,{path:"/RhodesIBPEClub/ourteam",element:D.jsx(xE,{})})]})]})})}ba.createRoot(document.getElementById("root")).render(D.jsx(Pn.StrictMode,{children:D.jsx(SE,{})}));
+`;function SE(){return D.jsx(wE,{children:D.jsxs(_1,{basename:"https://rhodesibpeclub.github.io/",children:[D.jsx(oE,{}),D.jsxs(R1,{children:[D.jsx(ti,{path:"/RhodesIBPEClub/",element:D.jsx(hE,{})}),D.jsx(ti,{path:"/RhodesIBPEClub/about",element:D.jsx(gE,{})}),D.jsx(ti,{path:"/RhodesIBPEClub/contact",element:D.jsx(vE,{})}),D.jsx(ti,{path:"/RhodesIBPEClub/ourteam",element:D.jsx(xE,{})})]})]})})}ba.createRoot(document.getElementById("root")).render(D.jsx(Pn.StrictMode,{children:D.jsx(SE,{})}));
