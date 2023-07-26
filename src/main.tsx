@@ -27,7 +27,7 @@ const AppContainer = styled.div`
 function App() {
 	return (
 		<AppContainer>
-			<Router basename="https://rhodesibpeclub.github.io/RhodesIBPEClub/">
+			<Router basename="https://rhodesibpeclub.github.io/">
 				<NavBar />
 				<Routes>
 					<Route path="/RhodesIBPEClub/" element={<Home />} />
