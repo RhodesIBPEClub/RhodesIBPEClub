@@ -27,10 +27,10 @@ const AppContainer = styled.div`
 function App() {
 	return (
 		<AppContainer>
-			<Router basename="https://rhodesibpeclub.github.io/">
+			<Router basename="/RhodesIBPEClub">
 				<NavBar />
 				<Routes>
-					<Route path="/RhodesIBPEClub/" element={<Home />} />
+					<Route path="/" element={<Home />} />
 					<Route path="/RhodesIBPEClub/about" element={<About />} />
 					<Route path="/RhodesIBPEClub/contact" element={<Contact />} />
 					<Route path="/RhodesIBPEClub/ourteam" element={<Team />} />
